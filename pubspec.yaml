@@ -1,0 +1,46 @@
+name: gocht
+description: A Flutter voice chat room app with gifts, coins, VIP and leaderboard.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.10.0
+  cloud_firestore: ^4.13.0
+  firebase_storage: ^11.5.0
+  firebase_messaging: ^14.7.0
+
+  provider: ^6.0.0
+
+  flutter_webrtc: ^0.9.38
+  agora_rtc_engine: ^6.2.0
+
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.7
+
+  in_app_purchase: ^0.7.1
+
+  http: ^1.1.0
+
+  intl: ^0.19.0
+  uuid: ^4.0.0
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
